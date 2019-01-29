@@ -26,8 +26,7 @@ WEEKEND = (SAT, SUN)
 JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, \
      NOV, DEC = range(1, 13)
 
-def heidi(a,b):
-    return a+b
+# heidi is beautiful
 class HolidayBase(dict):
     PROVINCES = []
 
