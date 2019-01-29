@@ -26,7 +26,8 @@ WEEKEND = (SAT, SUN)
 JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, \
      NOV, DEC = range(1, 13)
 
-
+def heidi(a,b):
+    return a+b
 class HolidayBase(dict):
     PROVINCES = []
 
@@ -161,7 +162,6 @@ class HolidayBase(dict):
 
     def _populate(self, year):
         pass
-
 
 def createHolidaySum(h1, h2):
     class HolidaySum(HolidayBase):
